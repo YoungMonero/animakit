@@ -321,14 +321,14 @@ body {
   margin-bottom: 25px;
   padding-bottom: 5px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px #555;
+  box-shadow: 0.5px 2px 4px #555;
   background-color: #d4a522;
   color: white;
 }
 
 .branded img {
   margin-top: 11px;
-  padding-top: 5px;
+  padding-top: 5.9px;
   width: 70px;
 }
 
@@ -391,7 +391,7 @@ body {
 
 .movies {
   text-align: center;
-  height: 200px;
+  height: 200.1px;
   width: 221px;
   justify-self: center;
   padding-top: 5px;
@@ -406,7 +406,7 @@ body {
 
 .movies img {
   margin-top: 0.5rem;
-  padding-top: 5px;
+  padding-top: 5.1px;
   width: 70px;
 }
 

@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+.logo-head {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.main-logo img {
+    width: 70px;
+    height: 60px;
+}
+
 .icons {
     display: flex;
     justify-content: space-between;
@@ -10,11 +20,20 @@
     background-color: rgb(209, 209, 29);
     border-radius: 10px;
     box-shadow: 0 10px 30px rgb(151, 144, 37);
-    margin-top: 10px;
-    padding-top: 10px;
     margin: 10px;
     padding: 10px;
 }
+
+.animakit {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 1.4rem;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
 
 nav {
     padding: 10px;
@@ -42,7 +61,7 @@ body {
 .main-heading {
     background-image: url(../images/backgroud-three.jpg),linear-gradient(#f5f4f4,#ebe1e1);
     background-size: cover;
-    height: 300px;
+    height: 400px;
     color: white;
 }
 
@@ -637,4 +656,89 @@ body {
     margin-top: 10px;
     padding-top: 5px;
     width: 70px; 
+}
+
+.image-six img {
+    width: 300px;
+    height: 300px;
+}
+
+.testimony {
+    color: #aa8319;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.about-us {
+    display: flex;
+    gap: 4rem;
+    background-image: linear-gradient(#c2c2c2, #f1f1f1);
+}
+
+.about-us img {
+    width: 70px;
+    height: 60px;
+}
+
+.aboutus-header {
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 5px;
+    padding-left: 5px;
+    font-weight: 900;
+    font-size: 0.8rem;
+    color: #d4a522;
+}
+
+.say-one {
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: block;
+    
+}
+
+.say-two {
+    margin-left: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: block; 
+}
+
+.profile-one {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.profile-one img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.profile-id {
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.profile-two {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.profile-two img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.profile-id-two {
+    margin-top: 5px;
+    padding-top: 5px;
 }

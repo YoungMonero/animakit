@@ -67,7 +67,7 @@ body {
 
 .body-one {
   margin-top: 20px;
-  padding-top: 20px; 
+  padding-top: 20px;
   margin-left: 10px;
   padding-left: 10px;
   margin-right: 5px;
@@ -100,6 +100,7 @@ body {
   border: none;
 
   /* display: inline-block; */
+
   padding: 20px;
   box-sizing: border-box;
   white-space: nowrap;
@@ -146,7 +147,7 @@ body {
   padding-right: 5px;
   margin-right: 5px;
   padding-bottom: 10px;
-  margin-bottom: 10px;    
+  margin-bottom: 10px;  
 }
 
 .section-two {
@@ -210,8 +211,9 @@ body {
   padding: 5px;
   margin-right: 10px;
   margin-left: 10px;
-  padding-left:  10px;
+  padding-left: 10px;
   padding-right: 10px;
+  font-size: 0.7rem;
 }
 
 .number-one {
@@ -235,12 +237,12 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.section-four {
-  font-size: 0.7rem;
+/*.section-four {
+  font-size: 0.7rem;*/
 }
 
 .section-five {
-  background-image: linear-gradient(#dfdfdb, #ffffff);
+  background-image: linear-gradient(#dfdfdb, #fff);
   display: block;
 }
 
@@ -248,7 +250,7 @@ body {
   font-size: 0.9rem;
   text-align: center;
   margin-top: 10px;
-  padding-top: 10px; 
+  padding-top: 10px;
   margin-bottom: 5px;
   padding-bottom: 5px;
 }
@@ -329,25 +331,27 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .branded img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .heading-ani-two {
   margin-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 .ads-video {
   text-align: center;
   height: 200px;
   width: 220px;
+
   /*background-color: white;*/
+  
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -356,25 +360,27 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .ads-video img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .heading-ani-three {
   margin-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 .production {
   text-align: center;
   height: 200px;
   width: 220px;
+
   /*background-color: white;*/
+
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -383,25 +389,27 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .production img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .heading-ani-four {
   margin-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 .movies {
   text-align: center;
   height: 200px;
   width: 220px;
+  
   /*background-color: white;*/
+
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -410,18 +418,18 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .movies img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .heading-ani-five {
   margin-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 .you-will {
@@ -461,13 +469,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .consultation img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .easy-step-header {
@@ -500,13 +508,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .package img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .productions {
@@ -522,13 +530,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .productions img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .file {
@@ -544,13 +552,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .file img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .make-world {
@@ -561,14 +569,14 @@ body {
   color: white;
 }
 
-.makeWorld-heading {
+.makeworld-heading {
   padding-top: 50px;
   margin-top: 50px;
   font-size: 1rem;
   padding-left: 5px;
   margin-left: 5px;
   padding-right: 5px;
-  margin-right: 5px; 
+  margin-right: 5px;
 }
 
 .make-world p {
@@ -589,13 +597,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .customer img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .ticket {
@@ -611,7 +619,7 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .ticket img {
@@ -633,13 +641,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .article img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .image-six img {
@@ -679,7 +687,7 @@ body {
   padding-left: 5px;
   margin-top: 10px;
   padding-top: 10px;
-  display: block;  
+  display: block;
 }
 
 .say-two {
@@ -687,7 +695,7 @@ body {
   padding-left: 5px;
   margin-top: 10px;
   padding-top: 10px;
-  display: block; 
+  display: block;
 }
 
 .profile-one {

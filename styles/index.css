@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   height: 15px;
-  background-color:#d4a522;
+  background-color: #d4a522;
   border-radius: 10px;
   box-shadow: 0 10px 30px #555;
   margin: 10px;
@@ -25,7 +25,7 @@
 }
 
 .animakit {
-  font-family: "DynaPuff", system-ui;
+  font-family: DynaPuff, system-ui;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
@@ -33,7 +33,7 @@
   font-size: 1.4rem;
   padding-top: 10px;
   margin-top: 10px;
-  }
+}
 
 nav {
   padding: 10px;
@@ -59,7 +59,7 @@ body {
 }
 
 .main-heading {
-  background-image: url(../images/backgroud-three.jpg), linear-gradient(#f5f4f4, #ebe1e1);
+  background-image: url("../images/backgroud-three.jpg"), linear-gradient(#f5f4f4, #ebe1e1);
   background-size: cover;
   height: 400px;
   color: white;
@@ -94,19 +94,18 @@ body {
   margin-right: 15px;
   padding-right: 15px;
   border-radius: 5px;
-  font-size: o.7rem;
+  font-size: 0.7rem;
   cursor: pointer;
   height: 10px;
   border: none;
-  display: inline-block;
-  padding: 10px 20px;
+  /* display: inline-block; */
+  padding: 20px;
   box-sizing: border-box;
   white-space: nowrap;
   display: inline-flex;
   align-items: center;
-  background-image:, linear-gradient(#fffb0b, #96841e);
+  background-image: linear-gradient(#fffb0b, #96841e);
   color: white;
-
 }
 
 .body-two {
@@ -122,14 +121,14 @@ body {
   display: block;
 }
 
-.Pharagraph-two {
+.pharagraph-two {
   font-weight: bold;
   font-size: 1rem;
   margin-top: 2px;
   padding-top: 2px;
   margin-bottom: 2px;
   padding-bottom: 2px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #ece90a;
 }
 
@@ -146,8 +145,7 @@ body {
   padding-right: 5px;
   margin-right: 5px;
   padding-bottom: 10px;
-  margin-bottom: 10px;  
-    
+  margin-bottom: 10px;
 }
 
 .section-two {
@@ -169,7 +167,7 @@ body {
 }
 
 .section-three {
-  background-image: url(../images/background-four.jpg), linear-gradient(#ddc24a, #aa8319);
+  background-image: url("../images/background-four.jpg"), linear-gradient(#ddc24a, #aa8319);
   background-size: contain;
   height: 200px;
 }
@@ -213,38 +211,35 @@ body {
   margin-left: 10px;
   padding-left:  10px;
   padding-right: 10px;
-
 }
 
 .number-one {
   color: #ddc24a;
   font-size: 1rem;
   font-weight: 900;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .number-two {
   color: #ddc24a;
   font-size: 1rem;
   font-weight: 900;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .number-three {
   color: #ddc24a;
   font-size: 1rem;
   font-weight: 900;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.section-four {
-  font-size: 0.7rem;
+/*.section-four {
+  font-size: 0.7rem;*/
 }
 
 .section-five {
-  background-image: linear-gradient(#dfdfdb, #ffffff);
+  background-image: linear-gradient(#dfdfdb, #fff);
   display: block;
 }
 
@@ -282,8 +277,8 @@ body {
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
   color: white;
-    
 }
+
 .three-animation img {
   margin-top: 10px;
   padding-top: 5px;
@@ -333,20 +328,19 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .branded img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .heading-ani-two {
   margin-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
-
 
 .ads-video {
   text-align: center;
@@ -361,20 +355,19 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .ads-video img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .heading-ani-three {
   margin-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
-
 
 .production {
   text-align: center;
@@ -389,20 +382,19 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .production img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .heading-ani-four {
   margin-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
-
 
 .movies {
   text-align: center;
@@ -417,18 +409,18 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .movies img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .heading-ani-five {
   margin-top: 10px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 .you-will {
@@ -449,7 +441,6 @@ body {
   margin-top: 20px;
   box-shadow: 0 2px 4px #555;
   border-radius: 5px;
-
 }
 
 .easysteps-boxes {
@@ -469,13 +460,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .consultation img{
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .easy-step-header {
@@ -508,13 +499,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .package img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .productions {
@@ -530,13 +521,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .productions img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .file {
@@ -552,17 +543,17 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .file img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .make-world {
-  background-image: url(../images/bachgroud-four.jpg);
+  background-image: url("../images/bachgroud-four.jpg");
   background-size: cover;
   height: 200px;
   text-align: center;
@@ -576,7 +567,7 @@ body {
   padding-left: 5px;
   margin-left: 5px;
   padding-right: 5px;
-  margin-right: 5px; 
+  margin-right: 5px;
 }
 
 .make-world p {
@@ -597,13 +588,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .customer img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .ticket {
@@ -619,13 +610,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .ticket img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .article{
@@ -641,13 +632,13 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
-  color: white; 
+  color: white;
 }
 
 .article img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px; 
+  width: 70px;
 }
 
 .image-six img {
@@ -687,7 +678,7 @@ body {
   padding-left: 5px;
   margin-top: 10px;
   padding-top: 10px;
-  display: block;  
+  display: block;
 }
 
 .say-two {
@@ -695,7 +686,7 @@ body {
   padding-left: 5px;
   margin-top: 10px;
   padding-top: 10px;
-  display: block; 
+  display: block;
 }
 
 .profile-one {

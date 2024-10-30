@@ -239,7 +239,6 @@ body {
 
 /*.section-four {
   font-size: 0.7rem;*/
-}
 
 .section-five {
   background-image: linear-gradient(#dfdfdb, #fff);
@@ -277,7 +276,7 @@ body {
   margin-bottom: 25px;
   padding-bottom: 5px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px #555;
+  box-shadow: 1px 2px 4px #555;
   background-color: #d4a522;
   color: white;
 }
@@ -285,7 +284,7 @@ body {
 .three-animation img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px;
+  width: 71px;
 }
 
 .heading-ani {
@@ -300,7 +299,7 @@ body {
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 1.4rem;
   padding-bottom: 5px;
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
@@ -309,7 +308,7 @@ body {
 }
 
 .two-animation img {
-  margin-top: 10px;
+  margin-top: 10.1px;
   padding-top: 5px;
   width: 70px;
 }
@@ -322,7 +321,7 @@ body {
 .branded {
   text-align: center;
   height: 200px;
-  width: 220px;
+  width: 221px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -335,7 +334,7 @@ body {
 }
 
 .branded img {
-  margin-top: 10px;
+  margin-top: 11px;
   padding-top: 5px;
   width: 70px;
 }
@@ -347,7 +346,7 @@ body {
 
 .ads-video {
   text-align: center;
-  height: 200px;
+  height: 201px;
   width: 220px;
 
   /*background-color: white;*/
@@ -366,7 +365,7 @@ body {
 .ads-video img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px;
+  width: 69px;
 }
 
 .heading-ani-three {
@@ -377,7 +376,7 @@ body {
 .production {
   text-align: center;
   height: 200px;
-  width: 220px;
+  width: 222px;
 
   /*background-color: white;*/
 
@@ -394,7 +393,7 @@ body {
 
 .production img {
   margin-top: 10px;
-  padding-top: 5px;
+  padding-top: 6px;
   width: 70px;
 }
 
@@ -406,7 +405,7 @@ body {
 .movies {
   text-align: center;
   height: 200px;
-  width: 220px;
+  width: 221px;
   
   /*background-color: white;*/
 
@@ -422,7 +421,7 @@ body {
 }
 
 .movies img {
-  margin-top: 10px;
+  margin-top: 0.5rem;
   padding-top: 5px;
   width: 70px;
 }
@@ -467,14 +466,14 @@ body {
   margin-bottom: 25px;
   padding-bottom: 5px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px #555;
+  box-shadow: 0 3px 4px #474747
   background-color: #d4a522;
   color: white;
 }
 
 .consultation img {
   margin-top: 10px;
-  padding-top: 5px;
+  padding-top: 5.1px;
   width: 70px;
 }
 
@@ -498,13 +497,13 @@ body {
 .package {
   display: block;
   text-align: center;
-  height: 200px;
+  height: 201px;
   width: 220px;
   justify-self: center;
-  padding-top: 5px;
+  padding-top: 6px;
   margin-top: 25px;
   margin-bottom: 25px;
-  padding-bottom: 5px;
+  padding-bottom: 6px;
   border-radius: 5px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
@@ -512,8 +511,8 @@ body {
 }
 
 .package img {
-  margin-top: 10px;
-  padding-top: 5px;
+  margin-top: 11px;
+  padding-top: 6px;
   width: 70px;
 }
 
@@ -524,7 +523,7 @@ body {
   width: 220px;
   justify-self: center;
   padding-top: 5px;
-  margin-top: 25px;
+  margin-top: 26px;
   margin-bottom: 25px;
   padding-bottom: 5px;
   border-radius: 5px;
@@ -534,8 +533,8 @@ body {
 }
 
 .productions img {
-  margin-top: 10px;
-  padding-top: 5px;
+  margin-top: 11px;
+  padding-top: 6px;
   width: 70px;
 }
 
@@ -595,14 +594,14 @@ body {
   margin-bottom: 25px;
   padding-bottom: 5px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px #555;
+  box-shadow: 0 2px 5px #555;
   background-color: #d4a522;
   color: white;
 }
 
 .customer img {
   margin-top: 10px;
-  padding-top: 5px;
+  padding-top: 5.3px;
   width: 70px;
 }
 
@@ -616,7 +615,7 @@ body {
   margin-top: 25px;
   margin-bottom: 25px;
   padding-bottom: 5px;
-  border-radius: 5px;
+  border-radius: 5.1px;
   box-shadow: 0 2px 4px #555;
   background-color: #d4a522;
   color: white;
@@ -625,14 +624,14 @@ body {
 .ticket img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px;
+  width: 70.4px;
 }
 
 .article {
   display: block;
   text-align: center;
-  height: 200px;
-  width: 220px;
+  height: 201px;
+  width: 222px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -647,7 +646,7 @@ body {
 .article img {
   margin-top: 10px;
   padding-top: 5px;
-  width: 70px;
+  width: 70.9px;
 }
 
 .image-six img {

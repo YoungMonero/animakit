@@ -3,12 +3,14 @@
   padding: 0;
 }
 
-.logo-head {
+.logo-head,
+.logo {
   display: flex;
   gap: 0.2rem;
 }
 
-.main-logo img {
+.main-logo img,
+.logo-image img {
   width: 70px;
   height: 60px;
 }
@@ -21,10 +23,11 @@
   border-radius: 10px;
   box-shadow: 0 10px 30px #555;
   margin: 10px;
-  padding: 10px;
+  padding: 15px;
 }
 
-.animakit {
+.animakit,
+.logo-name {
   font-family: DynaPuff, system-ui;
   font-optical-sizing: auto;
   font-weight: 900;
@@ -61,7 +64,7 @@ body {
 .main-heading {
   background-image: url("../images/backgroud-three.jpg"), linear-gradient(#f5f4f4, #ebe1e1);
   background-size: cover;
-  height: 400px;
+  height: 500px;
   color: white;
 }
 
@@ -74,36 +77,33 @@ body {
   padding-right: 5px;
 }
 
-.heading-one {
-  justify-content: center;
-  font-size: 1rem;
+.heading-one,
+.another {
+  font-family: DynaPuff, serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  font-size: 1.4rem;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-.paragraph-one {
-  margin-top: 5px;
+.paragraph-one,
+.pharagraph-four {
+  margin-top: 10px;
   padding-top: 5px;
   font-size: 0.6rem;
 }
 
-.button-one {
-  text-align: center;
-  margin-top: 20px;
-  padding-top: 20px;
-  margin-right: 15px;
-  padding-right: 15px;
-  border-radius: 5px;
-  font-size: 0.7rem;
-  cursor: pointer;
-  height: 10px;
-  border: none;
-  box-sizing: border-box;
-  white-space: nowrap;
-  display: inline-flex;
-  align-items: center;
-  background-image: linear-gradient(#fffb0b, #96841e);
+.button-one,
+.button-three {
+  background-color: transparent;
+  width: 124px;
+  padding: 10px;
   color: white;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 5px;
 }
 
 .body-two {
@@ -119,55 +119,55 @@ body {
   display: block;
 }
 
-.pharagraph-two {
-  font-weight: bold;
+.heading-top {
+  font-family: DynaPuff, serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
   font-size: 1rem;
-  margin-top: 2px;
-  padding-top: 2px;
-  margin-bottom: 2px;
-  padding-bottom: 2px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #ece90a;
-}
+  text-align: center;
+  color: #d4a522;
+  margin-top: 5px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}    
 
 .button-two {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: transparent;
+  width: 124px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border-radius: 5px;
 }
 
-.image-one {
-  padding-left: 5px;
-  margin-left: 5px;
-  padding-right: 5px;
-  margin-right: 5px;
-  padding-bottom: 10px;
+.image-one img {
+  width: 100%;
+  height: 300px;
   margin-bottom: 10px;
-}
 
-.section-two {
-  border-bottom: 1px solid;
 }
 
 .sponsor {
   height: 15px;
   width: 30px;
   display: flex;
-  gap: 2rem;
-  margin: 10px;
-  padding: 10px;
+  gap: 1rem;
+  margin: 7px;
+  padding: 7px;
 }
 
 .sponsor img {
-  height: 15px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
 }
 
 .section-three {
   background-image: url("../images/background-four.jpg"), linear-gradient(#ddc24a, #aa8319);
   background-size: contain;
-  height: 200px;
+  height: 300px;
 }
 
 .heading-two {
@@ -180,24 +180,11 @@ body {
   color: white;
 }
 
-.another {
-  justify-content: center;
-  font-size: 1rem;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .pharagraph-four {
   font-size: 0.7rem;
   text-align: center;
   margin-top: 5px;
   padding-top: 5px;
-}
-
-.botton-three {
-  margin-top: 5px;
-  padding-top: 5px;
-  text-align: center;
 }
 
 .section-four {
@@ -213,21 +200,21 @@ body {
 }
 
 .number-one {
-  color: #ddc24a;
+  color: #f1b636;
   font-size: 1rem;
   font-weight: 900;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .number-two {
-  color: #ddc24a;
+  color: #c59511;
   font-size: 1rem;
   font-weight: 900;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .number-three {
-  color: #ddc24a;
+  color: #d8ab18;
   font-size: 1rem;
   font-weight: 900;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -238,11 +225,18 @@ body {
   display: block;
 }
 
-.heading-three {
-  font-size: 0.9rem;
+.heading-three,
+.easy-step-header {
+  font-family: DynaPuff, serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  font-size: 1rem;
   text-align: center;
-  margin-top: 10px;
-  padding-top: 10px;
+  color: #d4a522;
+  margin-top: 15px;
+  padding-top: 15px;
   margin-bottom: 5px;
   padding-bottom: 5px;
 }
@@ -253,16 +247,19 @@ body {
   padding: 5px;
 }
 
-.botton-four {
-  margin-top: 5px;
-  padding-top: 5px;
-  text-align: center;
+.button-four {
+    background-color: transparent;
+    width: 124px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 130px;
+    border-radius: 5px;
 }
 
 .three-animation {
   text-align: center;
-  height: 200px;
-  width: 220px;
+  height: 250.1px;
+  width: 250px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -285,10 +282,26 @@ body {
   padding-bottom: 10px;
 }
 
+.button-xi,
+.button-x,
+.button-xl,
+.button-xxl,
+.button-xs,
+.button-xxs,
+.button-wan,
+.button,
+.footer-button {
+  background-color: transparent;
+  width: 124px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
 .two-animation {
   text-align: center;
-  height: 200px;
-  width: 220px;
+  height: 250px;
+  width: 250.3px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -313,8 +326,8 @@ body {
 
 .branded {
   text-align: center;
-  height: 200px;
-  width: 221px;
+  height: 250px;
+  width: 250.2px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -339,8 +352,8 @@ body {
 
 .ads-video {
   text-align: center;
-  height: 201px;
-  width: 220px;
+  height: 250.11px;
+  width: 250px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -365,8 +378,8 @@ body {
 
 .production {
   text-align: center;
-  height: 200px;
-  width: 222px;
+  height: 250px;
+  width: 250px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -391,8 +404,8 @@ body {
 
 .movies {
   text-align: center;
-  height: 200.1px;
-  width: 221px;
+  height: 250.1px;
+  width: 250.11px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -428,11 +441,12 @@ body {
 }
 
 .whatt img {
-  width: 280px;
-  height: 250px;
+  width: 90%;
+  height: 300px;
   margin-top: 20px;
   box-shadow: 0 2px 4px #555;
   border-radius: 5px;
+  margin-left: 20px;
 }
 
 .easysteps-boxes {
@@ -442,8 +456,8 @@ body {
 .consultation {
   display: block;
   text-align: center;
-  height: 200px;
-  width: 220px;
+  height: 250px;
+  width: 250.12px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -461,28 +475,16 @@ body {
   width: 70px;
 }
 
-.easy-step-header {
-  margin-top: 15px;
-  padding-top: 15px;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-weight: 800;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  color: #d4a522;
-}
-
 .image-five img {
-  width: 300px;
-  margin-left: 15px;
+  width: 100%;
+  height: 300px;
 }
 
 .package {
   display: block;
   text-align: center;
-  height: 201px;
-  width: 220px;
+  height: 251px;
+  width: 250px;
   justify-self: center;
   padding-top: 6px;
   margin-top: 25px;
@@ -503,8 +505,8 @@ body {
 .productions {
   display: block;
   text-align: center;
-  height: 200px;
-  width: 220px;
+  height: 250px;
+  width: 250px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 26px;
@@ -525,10 +527,10 @@ body {
 .file {
   display: block;
   text-align: center;
-  height: 200px;
-  width: 220px;
+  height: 250px;
+  width: 250px;
   justify-self: center;
-  padding-top: 5px;
+  padding-top: 10px;
   margin-top: 25px;
   margin-bottom: 25px;
   padding-bottom: 5px;
@@ -547,19 +549,21 @@ body {
 .make-world {
   background-image: url("../images/bachgroud-four.jpg");
   background-size: cover;
-  height: 200px;
+  height: 350px;
   text-align: center;
   color: white;
 }
 
 .makeworld-heading {
-  padding-top: 50px;
+  font-family: DynaPuff, serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  font-size: 1.4rem;
+  text-align: center;
   margin-top: 50px;
-  font-size: 1rem;
-  padding-left: 5px;
-  margin-left: 5px;
-  padding-right: 5px;
-  margin-right: 5px;
+  padding-top: 70px;
 }
 
 .make-world p {
@@ -567,11 +571,19 @@ body {
   padding: 5px;
 }
 
+.button-mms {
+  background-color: transparent;
+  width: 124.5px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
 .customer {
   display: block;
   text-align: center;
-  height: 200px;
-  width: 220px;
+  height: 250px;
+  width: 250px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -592,8 +604,8 @@ body {
 .ticket {
   display: block;
   text-align: center;
-  height: 200px;
-  width: 220px;
+  height: 250px;
+  width: 250px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -614,8 +626,8 @@ body {
 .article {
   display: block;
   text-align: center;
-  height: 201px;
-  width: 222px;
+  height: 250.11px;
+  width: 250.22px;
   justify-self: center;
   padding-top: 5px;
   margin-top: 25px;
@@ -638,8 +650,15 @@ body {
   height: 300px;
 }
 
-.testimony {
-  color: #aa8319;
+.testimony,
+.aboutus-header {
+  font-family: DynaPuff, serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  font-size: 1rem;
+  color: #d4a522;
   font-size: 1rem;
   margin-left: 10px;
 }
@@ -653,16 +672,6 @@ body {
 .about-us img {
   width: 70px;
   height: 60px;
-}
-
-.aboutus-header {
-  margin-top: 10px;
-  padding-top: 10px;
-  margin-left: 5px;
-  padding-left: 5px;
-  font-weight: 900;
-  font-size: 0.8rem;
-  color: #d4a522;
 }
 
 .say-one {
@@ -716,3 +725,93 @@ body {
   margin-top: 5px;
   padding-top: 5px;
 }
+
+.foooter {
+  background-color: #363635;
+  color: white;
+  display: block;
+}
+
+.talk-hd {
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.footer-button {
+  background-color: transparent;
+  width: 124px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 15px;
+  color: white;
+  border-color: white;
+  margin-bottom: 10px;
+}
+
+.email-icons {
+  display: flex;
+  gap: 1rem;
+  margin: 10px;
+  padding: 5px;
+}
+
+.email-icons img {
+  width: 50px;
+  height: 50px;
+}
+
+.email-name {
+  margin: 5px;
+  padding: 5px;
+}
+
+.service-head {
+  font-size: 0.9rem;
+  margin-left: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+
+}
+
+.services,
+.studio {
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.studio-head {
+  font-size: 0.9rem;
+  margin-left: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 10px; 
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.studio {
+  padding-left: 5px;
+  margin-left: 5px;
+  border-bottom: 3px blue solid;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  display: block;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.terms {
+  display: flex;
+  gap: 2rem;
+  margin: 10px;
+  padding: 10px;
+}
+
+  

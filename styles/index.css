@@ -26,17 +26,6 @@
   padding: 10px;
 }
 
-/*.icons {
-  display: flex;
-  justify-content: space-between;
-  height: 15px;
-  background-color: #d4a522;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px #555;
-  margin: 10px;
-  padding: 15px;
-}*/
-
 .animakit,
 .logo-name {
   font-family: DynaPuff, system-ui;
@@ -80,7 +69,6 @@ body {
   height: 500px;
   color: white;
   opacity: 0.2rem;
-  
 }
 
 .body-one {
@@ -237,7 +225,7 @@ body {
 }
 
 .section-five {
-  background-image: linear-gradient(#c9c9c4,#c2b8b8);
+  background-image: linear-gradient(#c9c9c4, #c2b8b8);
   display: block;
 }
 

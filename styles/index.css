@@ -821,7 +821,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-
 .main-logo img,
 .logo-image img {
   width: 100px;
@@ -854,7 +853,6 @@ nav {
 
 .button-click {
   margin-top: 40px;
-
 }
 
 body {
@@ -1342,3 +1340,5 @@ a {
 .terms {
   margin-top: -10px;
 }
+}
+

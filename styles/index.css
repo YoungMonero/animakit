@@ -821,7 +821,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  
+
 .main-logo img,
 .logo-image img {
   width: 100px;
@@ -1342,4 +1342,3 @@ a {
   margin-top: -10px;
 }
 }
-
